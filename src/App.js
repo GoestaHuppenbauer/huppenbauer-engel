@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import React from 'react';  
+import logo from './logo.svg';  
+import './App.css';  
+import BootstrapCarouselDemo from './carousel'  
+function App() {  
+  return (  
+    <div className="App">  
+    <div className="cont">
+    <BootstrapCarouselDemo></BootstrapCarouselDemo>  
+    
+    <p className="centered"><span className="Überschrift">WIR PLANEN LEBENSRÄUME</span><br></br>Wenn sie mehr erfahren wollen melden Sie sich bei uns.</p>
+    <p className="bottom-right"><span className="name">Architekturbüro Huppenbauer und Engel</span><br></br>Kochenmühle 2<br></br>D-70771 Leinfelden-Echterdingen</p>
     </div>
-  );
-}
-
-export default App;
+    </div>
+  );  
+}  
+  
+export default App;  

@@ -1,4 +1,5 @@
 body {
+  background-color: blue;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,40 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color:white;
+
+}
+
+.cont {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.Überschrift {
+  font-size: 20pt;
+  font-weight: bold; 
+}
+
+.name {
+  font-size: 13pt;
+  font-weight: bold; 
+}
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  z-index:1;
+  text-align: left;
 }

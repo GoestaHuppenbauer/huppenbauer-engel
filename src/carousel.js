@@ -16,38 +16,38 @@ export class BootstrapCarouselDemo extends Component {
                         <div>  
                          
                           
-                        <Carousel fade={true} interval={4000} keyboard={true} pauseOnHover={false} indicators={false} controls={true}>  
+                        <Carousel fade={false} interval={4000} keyboard={true} pauseOnHover={false} indicators={false} controls={true}>  
                         
                         <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image src={img1} fluid /> 
+                            <Image style={{'width':'100%','height':"auto"}} src={img1} fluid /> 
                         </Carousel.Item  >  
                         
                         <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image src={img2} fluid />               
+                            <Image style={{'width':'100%','height':"auto"}} src={img2} fluid />               
                         </Carousel.Item>  
                             
                         <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image src={img3} fluid /> 
+                            <Image style={{'width':'100%','height':"auto"}} src={img3} fluid /> 
                         </Carousel.Item> 
 
                         <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image src={img5} fluid /> 
+                            <Image style={{'width':'100%','height':"auto"}} src={img5} fluid /> 
                         </Carousel.Item>
 
                         <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image src={img6} fluid /> 
+                            <Image style={{'width':'100%','height':"auto"}} src={img6} fluid /> 
                         </Carousel.Item>
 
                         <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image src={img4} fluid /> 
+                            <Image style={{'width':'100%','height':"auto"}} src={img4} fluid /> 
                         </Carousel.Item>  
 
                         <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image src={img8} fluid /> 
+                            <Image style={{'width':'100%','height':"auto"}} src={img8} fluid /> 
                         </Carousel.Item> 
 
                         <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image src={img9} fluid /> 
+                            <Image style={{'width':'100%','height':"auto"}} src={img9} fluid /> 
                         </Carousel.Item>  
 
                        

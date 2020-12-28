@@ -48,3 +48,7 @@ code {
   z-index:1;
   text-align: left;
 }
+
+.container-fluid {
+  padding: 0px;
+}

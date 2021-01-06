@@ -16,68 +16,38 @@ export class BootstrapCarouselDemo extends Component {
                         <div>  
                          
                           
-                        <Carousel fade={false} interval={4000} keyboard={true}  indicators={false} controls={true}>  
+                        <Carousel fade={true} interval={4000} keyboard={true} pauseOnHover={false} indicators={false} controls={true}>  
                         
-                        <Carousel.Item >  
-                            <img 
-                                className="d-block w-100 h-100" 
-                                
-                                src={img1}  
-                            /> 
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img1} fluid /> 
                         </Carousel.Item  >  
                         
-                        <Carousel.Item >  
-                            <img 
-                                className="img-fluid d-block w-100" 
-                                
-                                src={img2}  
-                            />               
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img2} fluid />               
                         </Carousel.Item>  
                             
-                        <Carousel.Item >  
-                                <img className="img-fluid d-block w-100" 
-                                
-                                src={img3}  
-                            /> 
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img3} fluid /> 
                         </Carousel.Item> 
 
-                        <Carousel.Item >  
-                            <img 
-                                className="img-fluid d-block w-100" 
-                                
-                                src={img5}  
-                            /> 
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img5} fluid /> 
                         </Carousel.Item>
 
-                        <Carousel.Item >  
-                                <img className="img-fluid d-block w-100" 
-                                
-                                src={img6}  
-                            /> 
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img6} fluid /> 
                         </Carousel.Item>
 
-                        <Carousel.Item >  
-                            <img 
-                                className="img-fluid d-block w-100" 
-                                
-                                src={img4} 
-                            /> 
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img4} fluid /> 
                         </Carousel.Item>  
 
-                        <Carousel.Item >  
-                            <img 
-                                className="img-fluid d-block w-100 h-100" 
-                               
-                                src={img8} 
-                            /> 
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img8} fluid /> 
                         </Carousel.Item> 
 
-                        <Carousel.Item >  
-                            <img 
-                                className="img-fluid d-block w-100" 
-                                
-                                src={img9}  
-                            /> 
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img9} fluid /> 
                         </Carousel.Item>  
 
                        

@@ -6,6 +6,9 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 ReactDOM.render(
+  useEffect(() => {
+    document.title = "Architekturbüro Huppenbauer - Engel"
+ }, []);
   
   <React.StrictMode>
     <App />

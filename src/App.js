@@ -1,11 +1,10 @@
 import React from 'react';  
-import logo from './logo.svg';  
 import './App.css';  
 import BootstrapCarouselDemo from './carousel'  
 function App() {  
   return (  
     <div className="App">  
-    <div className="cont">
+    <div className="cont h-100 d-inline-block">
     <BootstrapCarouselDemo></BootstrapCarouselDemo>  
     
     <p className="centered"><span className="Überschrift">WIR PLANEN LEBENSRÄUME</span><br></br>Wenn sie mehr erfahren wollen melden Sie sich bei uns.</p>

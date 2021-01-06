@@ -16,38 +16,68 @@ export class BootstrapCarouselDemo extends Component {
                         <div>  
                          
                           
-                        <Carousel fade={false} interval={4000} keyboard={true} pauseOnHover={false} indicators={false} controls={true}>  
+                        <Carousel fade={false} interval={4000} keyboard={true}  indicators={false} controls={true}>  
                         
-                        <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image className="img-fluid" style={{'width':'auto','height':"100%",'maxHeight':'100%'}} src={img1}  mode='fill'/> 
+                        <Carousel.Item >  
+                            <img 
+                                className="d-block w-100 h-100" 
+                                
+                                src={img1}  
+                            /> 
                         </Carousel.Item  >  
                         
-                        <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image className="img-fluid" style={{'width':'auto','height':"100%"}} src={img2}  mode='fill' />               
+                        <Carousel.Item >  
+                            <img 
+                                className="img-fluid d-block w-100" 
+                                
+                                src={img2}  
+                            />               
                         </Carousel.Item>  
                             
-                        <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image className="img-fluid" style={{'width':'auto','height':"100%"}} src={img3}  mode='fill' /> 
+                        <Carousel.Item >  
+                                <img className="img-fluid d-block w-100" 
+                                
+                                src={img3}  
+                            /> 
                         </Carousel.Item> 
 
-                        <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image className="img-fluid" style={{'width':'auto','height':"100%"}} src={img5}  mode='fill'/> 
+                        <Carousel.Item >  
+                            <img 
+                                className="img-fluid d-block w-100" 
+                                
+                                src={img5}  
+                            /> 
                         </Carousel.Item>
 
-                        <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image className="img-fluid" style={{'width':'auto','height':"100%"}} src={img6}  mode='fill'/> 
+                        <Carousel.Item >  
+                                <img className="img-fluid d-block w-100" 
+                                
+                                src={img6}  
+                            /> 
                         </Carousel.Item>
 
-                        <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image className="img-fluid" style={{'width':'auto','height':"100%"}} src={img4}  mode='fill'/> 
+                        <Carousel.Item >  
+                            <img 
+                                className="img-fluid d-block w-100" 
+                                
+                                src={img4} 
+                            /> 
                         </Carousel.Item>  
 
-                        <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image className="img-fluid" style={{'width':'auto','height':"100%"}} src={img8}  mode='fill'/> 
+                        <Carousel.Item >  
+                            <img 
+                                className="img-fluid d-block w-100 h-100" 
+                               
+                                src={img8} 
+                            /> 
                         </Carousel.Item> 
 
-                        <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image className="img-fluid" style={{'width':'auto','height':"100%"}} src={img9}  /> 
+                        <Carousel.Item >  
+                            <img 
+                                className="img-fluid d-block w-100" 
+                                
+                                src={img9}  
+                            /> 
                         </Carousel.Item>  
 
                        

@@ -9,6 +9,10 @@ import img6 from './imgs/sea2.jpg';
 import img8 from './imgs/mountains.jpg';
 import img9 from './imgs/road66.jpg';
 import img4 from './imgs/newsealand.jpg';
+import img10 from './imgs/desert.jpg';
+import img11 from './imgs/road.jpg';
+import img12 from './imgs/forest2.jpg';
+import img13 from './imgs/sky.jpg';
 
 export class BootstrapCarouselDemo extends Component {  
         render() {  
@@ -49,6 +53,22 @@ export class BootstrapCarouselDemo extends Component {
                         <Carousel.Item style={{'height':"100vh"}}>  
                             <Image alt="" src={img9} fluid /> 
                         </Carousel.Item>  
+
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img10} fluid /> 
+                        </Carousel.Item>  
+
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img11} fluid /> 
+                        </Carousel.Item> 
+
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img12} fluid /> 
+                        </Carousel.Item> 
+
+                        <Carousel.Item style={{'height':"100vh"}}>  
+                            <Image alt="" src={img13} fluid /> 
+                        </Carousel.Item> 
 
                        
                                     

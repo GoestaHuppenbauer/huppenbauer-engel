@@ -22,8 +22,8 @@ export class BootstrapCarouselDemo extends Component {
                           
                         <Carousel fade={true} interval={4000} keyboard={true} pauseOnHover={false} indicators={false} controls={true}>  
                         
-                        <Carousel.Item style={{'height':"100vh"}}>  
-                            <Image alt="" src={img1} fluid /> 
+                        <Carousel.Item style={{'flex':'1','height':'100vh','width':'100vw' ,'alignSelf':'cover'}}>  
+                            <Image alt="" src={img1} style={{'flex':'1','height':'100%','width':'undefined' ,'alignSelf':'contain'}}  /> 
                         </Carousel.Item  >  
                         
                         <Carousel.Item style={{'height':"100vh"}}>  
